@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Install the manual
           Fix Copyright
 
 0.01      2009-06-29 14:11:03 UTC
