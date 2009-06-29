@@ -1,6 +1,6 @@
 package Task::Spark::Form;
 
-# ABSTRACT: All you need to start with Spark
+# ABSTRACT: All you need to start with Spark::Form
 
 use strict;
 use warnings;
