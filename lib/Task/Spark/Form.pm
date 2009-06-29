@@ -1,7 +1,7 @@
 package Task::Spark::Form;
 
-# ABSTRACT All you need to start with Spark::Form
-# $Id:$
+# ABSTRACT: All you need to start with Spark
+
 use strict;
 use warnings;
 
@@ -19,6 +19,4 @@ you'll probably ever want to use to do anything with it.
 =cut
 
 1;
-
-
 
