@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Abstract Fixups
+          Pod Cleanups/Improvements
           Install the manual
           Fix Copyright
 

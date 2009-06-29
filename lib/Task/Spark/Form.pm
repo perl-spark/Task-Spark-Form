@@ -7,13 +7,13 @@ use warnings;
 
 =head1 SYNOPSIS
 
-perl -MCPAN -e 'install Task::Spark::Form'
+    perl -MCPAN -e 'install Task::Spark::Form'
 
 =cut
 
 =head1 DESCRIPTION
 
-The bare essentials of Spark::Form, with everything
+The bare essentials of L<Spark::Form>, with everything
 you'll probably ever want to use to do anything with it.
 
 =cut
