@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Use my new Provides for META.yml
           Abstract Fixups
           Pod Cleanups/Improvements
           Install the manual
