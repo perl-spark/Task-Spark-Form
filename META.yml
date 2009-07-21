@@ -1,0 +1,18 @@
+---
+abstract: 'All you need to start with Spark::Form'
+author:
+  - 'Kent Fredric <kentnl@cpan.org>'
+generated_by: 'Dist::Zilla::Plugin::MetaYAML version 1.092000'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Spark-Form
+requires:
+  Spark::Form: 0.1
+  SparkX::Form::BasicFields: 0.01
+  SparkX::Form::BasicPrinters: 0.1
+  SparkX::Form::BasicValidators: 0.01
+resources:
+  repository: git://github.com/kentfredric/Task-Spark-Form.git
+version: 0.01
