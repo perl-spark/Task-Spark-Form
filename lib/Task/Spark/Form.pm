@@ -1,8 +1,8 @@
 package Task::Spark::Form;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
-# ABSTRACT: All you need to start with Spark
+# ABSTRACT: All you need to start with Spark::Form
 
 use strict;
 use warnings;
@@ -18,20 +18,24 @@ __END__
 
 =head1 NAME
 
-Task::Spark::Form - All you need to start with Spark
+Task::Spark::Form - All you need to start with Spark::Form
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
-perl -MCPAN -e 'install Task::Spark::Form'
+    perl -MCPAN -e 'install Task::Spark::Form'
+
+
 
 =head1 DESCRIPTION
 
-The bare essentials of Spark::Form, with everything
+The bare essentials of L<Spark::Form>, with everything
 you'll probably ever want to use to do anything with it.
+
+
 
 =head1 AUTHOR
 
@@ -39,11 +43,11 @@ you'll probably ever want to use to do anything with it.
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2009 by Pedigree Consulting.
+This software is copyright (c) 2009 by Kent Fredric.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
-=cut
+=cut 
 
 

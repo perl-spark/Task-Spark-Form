@@ -13,10 +13,7 @@ my $build = Module::Build->new(
 "Kent\ Fredric\ \<kentnl\@cpan\.org\>",
   ],
   requires      => {
-    "SparkX::Form::BasicValidators" => '0.01',
-    "SparkX::Form::BasicPrinters" => '0.1',
-    "Spark::Form" => '0.1',
-    "SparkX::Form::BasicFields" => '0.01',
+    "Spark::Form" => '0.2102',
   },
   script_files => [ qw() ],
 );

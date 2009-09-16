@@ -2,7 +2,13 @@ Build.PL
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
+dist.ini
 lib/Task/Spark/Form.pm
+t/00-compile.t
+t/release-meta-yaml.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
