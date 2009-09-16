@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+          Bump Dep to 0.2102
+          More tests
+          Reorder dzil.ini
+          ship dzil.ini
           Use my new Provides for META.yml
           Abstract Fixups
           Pod Cleanups/Improvements
