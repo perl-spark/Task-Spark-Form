@@ -2,12 +2,12 @@
    "resources" : {
       "repository" : "git://github.com/kentfredric/Task-Spark-Form.git"
    },
-   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.092450",
+   "generated_by" : "Dist::Zilla version 1.092930",
    "meta-spec" : {
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "version" : "0.02",
+   "version" : "0.03012607",
    "name" : "Task-Spark-Form",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
@@ -15,12 +15,14 @@
    "license" : "perl",
    "provides" : {
       "Task::Spark::Form" : {
-         "version" : "0.02",
+         "version" : "0.03012607",
          "file" : "lib/Task/Spark/Form.pm"
       }
    },
    "requires" : {
-      "Spark::Form" : "0.2102"
+      "Spark::Form" : "0.2102",
+      "Catalyst::Plugin::Spark::Form" : "0.01000001"
    },
    "abstract" : "All you need to start with Spark::Form"
 }
+

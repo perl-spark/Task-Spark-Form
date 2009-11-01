@@ -2,7 +2,7 @@ NAME
     Task::Spark::Form - All you need to start with Spark::Form
 
 VERSION
-    version 0.02
+    version 0.03012607
 
 SYNOPSIS
         perl -MCPAN -e 'install Task::Spark::Form'
@@ -12,7 +12,7 @@ DESCRIPTION
     want to use to do anything with it.
 
 AUTHOR
-      Kent Fredric <kentnl@cpan.org>
+    Kent Fredric <kentnl@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2009 by Kent Fredric.

@@ -1,5 +1,9 @@
 Revision history for Task-Spark-Form
 
+0.03012607 2009-11-01 19:18:39 UTC
+          Add dep on Catalyst::Plugin::Spark::Form
+          Rebuild with newer pod tools.
+
 0.02      2009-09-16 00:46:54 UTC
           Bump Dep to 0.2102
           More tests

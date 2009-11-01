@@ -14,6 +14,7 @@ my $build = Module::Build->new(
   ],
   requires      => {
     "Spark::Form" => '0.2102',
+    "Catalyst::Plugin::Spark::Form" => '0.01000001',
   },
   script_files => [ qw() ],
 );
