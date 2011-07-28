@@ -2,9 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
  [Dependencies::Author::New]
- - (suggests)	 Dist::Zilla::PluginBundle::Author::KENTNL	 v1.0.0
+ - (suggests) Dist::Zilla::PluginBundle::Author::KENTNL v1.0.0
  - (recommended) Dist::Zilla::PluginBundle::Author::KENTNL::Lite 0.01009803
- - (requires)	 Dist::Zilla::PluginBundle::Author::KENTNL::Lite
+ - (requires) Dist::Zilla::PluginBundle::Author::KENTNL::Lite
 
  [Dependencies::Build::New]
  - Module::Build 0.3601
@@ -17,6 +17,9 @@ Revision history for {{$dist->name}}
  - English
  - File::Find
  - File::Temp
+
+ [Meta]
+ - Webpage/Issues/Source now point to github under "perl-spark"
 
  [Packaging]
  - Migrate Toolkit to @Author::KENTNL
