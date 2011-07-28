@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.03012607 2009-11-01T19:18:39Z
  - Add dep on Catalyst::Plugin::Spark::Form
  - Rebuild with newer pod tools.
 
