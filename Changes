@@ -1,19 +1,71 @@
 Revision history for Task-Spark-Form
 
-0.03012607 2009-11-01 19:18:39 UTC
-          Add dep on Catalyst::Plugin::Spark::Form
-          Rebuild with newer pod tools.
+1.0.0 2011-07-30T02:36:51Z
+ [Dependencies::Author::New]
+ - (suggests) Dist::Zilla::PluginBundle::Author::KENTNL v1.0.0
+ - (recommended) Dist::Zilla::PluginBundle::Author::KENTNL::Lite 0.01009803
+ - (requires) Dist::Zilla::PluginBundle::Author::KENTNL::Lite
 
-0.02      2009-09-16 00:46:54 UTC
-          Bump Dep to 0.2102
-          More tests
-          Reorder dzil.ini
-          ship dzil.ini
-          Use my new Provides for META.yml
-          Abstract Fixups
-          Pod Cleanups/Improvements
-          Install the manual
-          Fix Copyright
+ [Dependencies::Build::New]
+ - Module::Build 0.3601
+ - Test::More 0.88
 
-0.01      2009-06-29 14:11:03 UTC
-          Initial Revision
+ [Dependencies::Configure::New]
+ - Module::Build 0.3601
+
+ [Dependencies::Test::New]
+ - English
+ - File::Find
+ - File::Temp
+
+ [Meta]
+ - Webpage/Issues/Source now point to github under "perl-spark"
+
+ [Packaging]
+ - Migrate Toolkit to @Author::KENTNL
+ - Migrate to CPANChanges format Changelogs
+ - add .perltidyrc
+ - add perlcritic.rc
+ - Module::Build script regenerated heavily
+ - Moving to x.y.z "Git Versions"
+ - Updated Copyright Licenses
+ - Added weaver.ini
+ - No longer ships a Makefile.PL
+
+ [Tests::Author::New]
+ - CriticTests
+
+ [Tests::New]
+ - Plugin::ReportVersions::Tiny
+
+ [Tests::Release::New]
+ - DistMetaTests - EolTests - KwaliteeTests
+
+ [Tests::Release::Removed]
+ - release-meta-yaml.t # Yaml sucks, JSON rules.
+
+ [Tests::Release::Updated]
+ - PodCoverageTests
+ - PodSyntaxTests
+
+ [Tests::Updated]
+ - Plugin::CompileTest
+
+0.03012607 2009-11-01T19:18:39Z
+ - Add dep on Catalyst::Plugin::Spark::Form
+ - Rebuild with newer pod tools.
+
+0.02 2009-09-16T00:46:54Z
+ - Bump Dep to 0.2102
+ - More tests
+ - Reorder dzil.ini
+ - ship dzil.ini
+ - Use my new Provides for META.yml
+ - Abstract Fixups
+ - Pod Cleanups/Improvements
+ - Install the manual
+ - Fix Copyright
+
+0.01 2009-06-29T14:11:03Z
+ - Initial Revision
+
