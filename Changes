@@ -1,4 +1,48 @@
-Revision history for Task-Spark-Form
+﻿Revision history for Task-Spark-Form
+
+1.0.1 2012-11-29T20:52:51Z
+ - maint release, only user visible changes: less tests run during install
+   =)
+
+ [Dependencies::Changed / build requires]
+ - Module::Build 0.3601 -> 0.4003
+
+ [Dependencies::Changed / configure requires]
+ - Module::Build 0.3601 -> 0.4003
+
+ [Dependencies::Changed / develop recommends]
+ - Dist::Zilla::PluginBundle::Author::KENTNL::Lite 0.01009803 -> v1.3.0
+
+ [Dependencies::Changed / develop suggests]
+ - Dist::Zilla::PluginBundle::Author::KENTNL v1.0.0 -> v1.6.0
+
+ [Dependencies::Changed / test requires]
+ - Test::More 0.88 -> 0.98
+
+ [Dependencies::New / develop requires]
+ - Pod::Coverage::TrustPod
+ - Test::CPAN::Meta
+ - Test::Pod 1.41
+ - Test::Pod::Coverage 1.08
+ - version 0.9901
+
+ [Dependencies::New / runtime requires]
+ - perl v5.10.0
+ - strict
+ - warnings
+
+ [Dependenciess::Removed / test requires]
+ - English
+
+ [Internals]
+ - $VERSION declaration moved out of BEGIN
+ - All packages declare $AUTHORITY
+
+ [Packaging]
+ - updated LICENSE indentation.
+ - updated COPYRIGHT year.
+ - moved author/release tests to xt/
+ - repository.url now an HTTPS://.*.git path
 
 1.0.0 2011-07-30T02:36:51Z
  [Dependencies::Author::New]
